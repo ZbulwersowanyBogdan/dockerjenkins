@@ -1,3 +1,4 @@
+#prints out the basic system info
 import os
 import multiprocessing
 print('\n' * 8)
