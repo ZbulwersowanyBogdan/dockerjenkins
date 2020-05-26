@@ -1,11 +1,13 @@
 #prints out the basic system info
 import os
 import multiprocessing
-print('\n' * 8)
+from psutil import virtual_memoryprint('\n' * 8)
+
+
 print('liczba rdzeni procesora: ', multiprocessing.cpu_count())
 
 
-from psutil import virtual_memory
+
 
 mem = virtual_memory()
 mem.total
