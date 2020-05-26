@@ -6,8 +6,8 @@ sudo dpkg -i docker-ce_18.06.0~ce~3-0~ubuntu_amd64.deb
 sudo docker version
 sudo docker pull jenkins/jenkins:lts
 sudo apt install python3-pip -y
-sudo pip3 install docker-compose -y
-docker-compose up -d
+sudo pip3 install docker-compose
+sudo docker-compose up -d
 
 
 
