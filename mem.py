@@ -1,3 +1,4 @@
+#credits https://www.programcreek.com/python/example/925/os.sysconf -- example#34
 import os 
   
 # System Configuration variable 
